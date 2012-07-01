@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><pressdocumentation>
+<defaults>
+<media>ingatlan</media>
+<media>gazd/közélet</media>
+<type>online</type>
+<type>offline</type>
+<type>elektronikus</type>
+</defaults>
+<presssettings>
+<press webpage="noplaza.hu">
+<name>No Plaza</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="0" dy="0" ux="0" uy="0"/>
+</press>
+<press webpage="www.dehir.hu">
+<name>Debreceni Híradó</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="0" dy="0" ux="0" uy="0"/>
+</press>
+<press webpage="epulettar.hu">
+<name>Épülettár</name>
+<media>ingatlan</media>
+<type>online</type>
+<cropimageposition dx="1035" dy="3257" ux="12" uy="84"/>
+</press>
+<press webpage="www.hirado.hu">
+<name>Híradó</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="0" dy="0" ux="0" uy="0"/>
+</press>
+<press webpage="www.napi.hu">
+<name>Napi Online</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="666" dy="1209" ux="20" uy="733"/>
+<header value="#inner-content h1"/>
+<date value="span.date"/>
+<preface value=".lead"/>
+<body value="#pagecontent p"/>
+<upleft-component value="#header-logo"/>
+<downright-component value="#inner-content h1"/>
+</press>
+<press webpage="privatbankar.hu">
+<name>Privátbankár</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="666" dy="394" ux="26" uy="20"/>
+<header value=".col_w640  h1"/>
+<date value=".datetime"/>
+<preface value=""/>
+<body value="#main-cikk-body p"/>
+<upleft-component value="#logo img"/>
+<downright-component value=".col_w640  h1"/>
+</press>
+<press webpage="www.deluxe.hu">
+<name>Deluxe</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="660" dy="390" ux="15" uy="92"/>
+
+
+
+
+
+
+<header value=".cim"/>
+<date value=""/>
+<preface value=""/>
+<body value="#cikkszoveg"/>
+<upleft-component value="#logo img"/>
+<downright-component value=".lead"/>
+</press>
+<press webpage="promenad.hu">
+<name>Promenád</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="-1" dy="-1" ux="-1" uy="-1"/>
+<header value=""/>
+<date value=""/>
+<preface value=""/>
+<body value=""/>
+<upleft-component value=""/>
+<downright-component value=""/>
+</press>
+<press webpage="hvg.hu">
+<name>HVG online</name>
+<media>gazd/közélet</media>
+<type>online</type>
+<cropimageposition dx="-1" dy="-1" ux="-1" uy="-1"/>
+<header value=""/>
+<date value=""/>
+<preface value=""/>
+<body value=""/>
+<upleft-component value=""/>
+<downright-component value=""/>
+</press>
+</presssettings>
+<settings>
+<company name="DTZ">
+<documentdirectory>C:\Users\ethggy\Documents\Private\Press\dtz\dtz.odt</documentdirectory>
+<spreadsheetdirectory>C:\Users\ethggy\Documents\Private\Press\dtz\DTZ.xls</spreadsheetdirectory>
+</company>
+<defaultcompany>DTZ</defaultcompany>
+<company name="IFK">
+<documentdirectory>C:\Users\ethggy\Documents\Private\Press\ifk\ifk.odt</documentdirectory>
+<spreadsheetdirectory>C:\Users\ethggy\Documents\Private\Press\ifk\IFK.xls</spreadsheetdirectory>
+</company>
+</settings>
+</pressdocumentation>

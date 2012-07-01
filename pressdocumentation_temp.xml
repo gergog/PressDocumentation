@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><pressdocumentation>
+<defaults>
+<media>ingatlan</media>
+<media>gazd/közélet</media>
+<type>online</type>
+<type>offline</type>
+<type>elektronikus</type>
+</defaults>
+<press>
+<name>Hajdú online</name>
+<webpage>www.haon.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>Klubrádió</name>
+<webpage>www.klubradio.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>Borsod online</name>
+<webpage>www.boon.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>Origo</name>
+<webpage>www.origo.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>Népszabadség online</name>
+<webpage>www.nol.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>No plaza</name>
+<webpage>noplaza.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>Debreceni Televízió</name>
+<webpage>www.dehir.hu</webpage>
+<media>gazd/közélet</media>
+<type>online</type>
+</press>
+<press>
+<name>Épülettár</name>
+<webpage>epulettar.hu</webpage>
+<media>ingatlan</media>
+<type>online</type>
+</press>
+<settings>
+<company>
+<name>DTZ</name>
+<documentdirectory>C:\Users\ethggy\Documents\Private\Press\dtz\dtz.odt</documentdirectory>
+<spreadsheetdirectory>C:\Users\ethggy\Documents\Private\Press\dtz\DTZ.xls</spreadsheetdirectory>
+</company>
+<defaultcompany>IFK</defaultcompany>
+<company>
+<name>IFK</name>
+<documentdirectory>C:\Users\ethggy\Documents\Private\Press\ifk\ifk.odt</documentdirectory>
+<spreadsheetdirectory>C:\Users\ethggy\Documents\Private\Press\ifk\IFK.xls</spreadsheetdirectory>
+</company>
+</settings>
+</pressdocumentation>
