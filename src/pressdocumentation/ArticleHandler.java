@@ -215,7 +215,7 @@ public class ArticleHandler implements ArticleListener, CollectionDialogListener
     void printDoc(Date date) {
         
         
-        
+        /*
         OfficeWrite ow = new OfficeWrite();
         
         for (int i = 0; i < list.size(); i++) {
@@ -227,7 +227,7 @@ public class ArticleHandler implements ArticleListener, CollectionDialogListener
             ow.addArticle(a);
                     
         }
-        
+        */
         
     }
 

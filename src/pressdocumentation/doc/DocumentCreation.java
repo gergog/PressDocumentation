@@ -4,7 +4,6 @@
  */
 package pressdocumentation.doc;
 
-import com.sun.star.io.IOException;
 import pressdocumentation.pojos.Article;
 
 /**
@@ -36,6 +35,6 @@ public abstract class DocumentCreation {
 
     protected abstract void addTable(Article a);
 
-    public abstract void openDoc(String url) throws IOException;
+    public abstract void openDoc(String url);
     
 }

@@ -4,39 +4,6 @@
  */
 package pressdocumentation.doc;
 
-import com.sun.star.beans.PropertyValue;
-import com.sun.star.beans.PropertyVetoException;
-import com.sun.star.beans.UnknownPropertyException;
-import com.sun.star.beans.XPropertySet;
-import com.sun.star.comp.helper.BootstrapException;
-import com.sun.star.container.XNameContainer;
-import com.sun.star.frame.XComponentLoader;
-import com.sun.star.io.IOException;
-import com.sun.star.lang.IllegalArgumentException;
-import com.sun.star.lang.WrappedTargetException;
-import com.sun.star.lang.XComponent;
-import com.sun.star.lang.XMultiComponentFactory;
-import com.sun.star.lang.XMultiServiceFactory;
-import com.sun.star.table.XCell;
-import com.sun.star.table.XCellRange;
-import com.sun.star.text.ControlCharacter;
-import com.sun.star.text.XText;
-import com.sun.star.text.XTextContent;
-import com.sun.star.text.XTextCursor;
-import com.sun.star.text.XTextDocument;
-import com.sun.star.text.XTextRange;
-import com.sun.star.text.XTextTable;
-import com.sun.star.uno.AnyConverter;
-import com.sun.star.uno.Exception;
-import com.sun.star.uno.UnoRuntime;
-import com.sun.star.uno.XComponentContext;
-import java.awt.image.BufferedImage;
-import java.net.URL;
-import java.text.SimpleDateFormat;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-import javax.imageio.ImageIO;
-import ooo.connector.BootstrapSocketConnector;
 import pressdocumentation.pojos.Article;
 
 /**
@@ -45,6 +12,27 @@ import pressdocumentation.pojos.Article;
  */
 public class ODTCreation extends DocumentCreation  {
 
+    @Override
+    protected void addArticleBody(Article a) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    protected void addImage(Article a) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    protected void addTable(Article a) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+
+    @Override
+    public void openDoc(String url) {
+        throw new UnsupportedOperationException("Not supported yet.");
+    }
+    
+/*
     private XComponentLoader xComponentLoader;
     private XTextDocument aTextDocument;
     private XText xText;
@@ -262,4 +250,6 @@ public class ODTCreation extends DocumentCreation  {
         }
         
     }
+     * 
+     */
 }
